@@ -1,6 +1,12 @@
 const fetchComments = async (videoLink) => {
-    const apiKey = process.env.REACT_APP_YOUTUBE_API_KEY;
-    const videoId = videoLink.split('v=')[1];
+    let videoId;
+    if (videoLink.includes('youtu.be')) {
+        videoId = videoLink.split('youtu.be/')[1].split('?')[0];
+    } else {
+        videoId = videoLink.split('v=')[1].split('&')[0];
+    }
+
+    const apiKey = 'AIzaSyDMF0c_ER249Oc-fNGKTBDbCX0CvzQQTio';
     const apiUrl = `https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${videoId}&maxResults=100&key=${apiKey}`;
 
     try {
