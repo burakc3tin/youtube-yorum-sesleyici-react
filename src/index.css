@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", sans-serif;
+}
+
+body{
+  background-image: url('./assets/wallpaper.jpg');  
+  display: flex;   
+  justify-content: center;
+  align-items: center;
+  color:#f2f2f2;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+ }
+
+::-webkit-scrollbar-thumb {
+  background-color: #5b26e1;  
+  border-radius: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;  
+}

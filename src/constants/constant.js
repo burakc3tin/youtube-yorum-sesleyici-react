@@ -1,0 +1,1 @@
+export const PLACEHOLDER_YOUTUBE_LINK = 'Youtube linkini girin...';
