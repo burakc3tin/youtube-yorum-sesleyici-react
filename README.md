@@ -16,7 +16,7 @@ Uygulama, kullanıcıların belirli bir Youtube videosuna ait yorumları hızlı
 
 ### `Canlı Demo`
  [ Link
-](https://65f07d8af7389d0a8765f69e--precious-toffee-c27225.netlify.app/) 
+](https://65f0a70e32368a298a67c565--stellular-travesseiro-4b12a0.netlify.app/) 
 
 ### `Ekran Görüntüleri`
 
