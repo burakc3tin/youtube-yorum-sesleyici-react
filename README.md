@@ -20,7 +20,7 @@ Uygulama, kullanıcıların belirli bir Youtube videosuna ait yorumları hızlı
 
 ### `Ekran Görüntüleri`
 
-<img src="https://i.hizliresim.com/129hcbh.png" width=40% height=40%>
+<img src="https://i.hizliresim.com/129hcbh.png" width=60% height=60%>
   
 
 
